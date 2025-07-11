@@ -19,7 +19,7 @@ current_directory = os.path.dirname(os.path.abspath(__file__))
 # Define model paths relative to the script's directory
 english_model_name = os.path.join(current_directory, "distilbert-base-uncased")
 french_model_name = os.path.join(current_directory, "camembert-base")
-arabe_model_name = os.path.join(current_directory, "bert-base-arabertv2")
+arabe_model_name = os.path.join(current_directory, "fine_tuned_bert-base-arabertv02")
 
 english_model = FineTunedHead(english_model_name)
 french_model = FineTunedHead(french_model_name)
